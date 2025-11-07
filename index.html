@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Танцевальный мир</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 10%;
+      position: sticky;
+      top: 0;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff4081;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 90px 20px;
+      background: url('https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #ff4081;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #ff6fa8;
+    }
+
+    section {
+      padding: 60px 10%;
+      text-align: center;
+    }
+
+    .gallery .images {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 260px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Танцевальный мир</h1>
+    <nav>
+      <a href="#about">О нас</a>
+      <a href="#gallery">Галерея</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Двигайся в ритме жизни</h2>
+    <p>Ощути энергию танца и свободу движения.</p>
+  </section>
+
+  <section id="about">
+    <h2>О нас</h2>
+    <p>Добро пожаловать в «Танцевальный мир» — пространство, где рождается вдохновение и живёт движение.</p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Галерея танца</h2>
+    <div class="images">
+      <img src="https://images.unsplash.com/photo-1515168833906-d2a3b82b302a?auto=format&fit=crop&w=800&q=80" alt="Танец на сцене">
+      <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Бальные танцы">
+      <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80" alt="Уличные танцы">
+      <img src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=800&q=80" alt="Современный танец">
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>О танцах </h2>
+    <p>Танец — это язык, который не нуждается в словах.
+  Каждый шаг, каждое движение — это способ выразить эмоции, освободиться и стать ближе к себе.
+  Мы верим, что танец доступен каждому: не важно, сколько тебе лет и с чего ты начинаешь.
+  Здесь ты научишься чувствовать ритм, слышать музыку сердцем и двигаться свободно, как никогда прежде.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Танцевальный мир</p>
+  </footer>
+
+</body>
+</html>
